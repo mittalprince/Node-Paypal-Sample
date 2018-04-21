@@ -1,0 +1,17 @@
+{
+  "name": "node_paypal_sample",
+  "version": "1.0.0",
+  "description": "Simple payment sample-app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mittalprince",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.9",
+    "express": "^4.16.3",
+    "nodemon": "^1.17.3",
+    "paypal-rest-sdk": "^1.8.1"
+  }
+}
