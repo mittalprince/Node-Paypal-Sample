@@ -59,7 +59,7 @@ app.get('/success' , (req ,res ) => {
 
 app.get('/err' , (req , res) => {
     console.log(req.query);
-    res.redirect('/err.html');
+    res.send('Cancelled or Some error has occured please try again later');
 })
 
 app.listen( 3000 , () => {
